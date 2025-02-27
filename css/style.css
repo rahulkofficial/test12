@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: linear-gradient(to right,#000000,#152e9e,#000);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1;
+}
+header h1.logo{
+    width: 5%;
+}
+header h1.logo a{
+    display: block;
+    width: 100%;
+}
+header h1.logo a img{
+    display: block;
+    width: 100%;
+}
+header h1.text{
+    color: white;
+    letter-spacing: 10px;
+    margin-left: 20px;
+}
+div.main{
+    background: #dcdcdc;
+    height: 100vh;
+    text-align: center;
+}
+div.main div.input{
+    padding-top: 90px;
+    
+}
+div.main div.input div{
+    width: 26%;
+    margin: auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+div.main div.input input{
+    display: block;
+    width: 80%;
+    padding: 3px 6px;
+    background: none;
+    border: none;
+    outline: none;
+}
+div.main div.input div button{
+    display: block;
+    width: 20%;
+    border: none;
+    background: #152e9e;
+    padding: 3px 0;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.main div.input div button:hover{
+    background: #3851be;
+    cursor: pointer;
+}
+
+div.main ul{
+    width: 48%;
+    margin: auto;
+    margin-top: 40px;
+    height: 460px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+div.main ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+div.main ul li.co{
+    background: none;
+}
+
+div.main ul li.co span{
+    color: #1c6810;
+    text-decoration: line-through;
+}
+div.main ul li.co button.com{
+    visibility: hidden;
+}
+
+div.main ul li button.del{
+ width: 4%;
+ padding: 1px;
+}
+
+div.main ul li button.com{
+    color: #1c6810;
+    background: none;
+    border: 2px solid #1c6810;
+    padding: 2px 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+div.main ul li button.com:hover{
+    background: #1c68105f;
+}
+
+div.main ul li span{
+    font-size: 18px;
+}
+
+div.main ul li button.del img{
+ display: block;
+ width: 100%;
+ cursor: pointer;
+}
